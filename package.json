@@ -1,0 +1,16 @@
+{
+  "name": "flippie",
+  "version": "0.0.1",
+  "description": "card components with awesome flip animations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "cards",
+    "flip"
+  ],
+  "author": "Shubham Zanwar",
+  "license": "ISC"
+}
