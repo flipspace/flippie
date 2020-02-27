@@ -2,9 +2,10 @@
   "name": "flippie",
   "version": "0.0.1",
   "description": "card components with awesome flip animations",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && tsc -p ."
   },
   "keywords": [
     "js",
@@ -14,12 +15,14 @@
   "author": "Shubham Zanwar",
   "license": "ISC",
   "peerDependencies": {
-    "react": ">=16.6.0"
+    "react": ">=16.6.0",
+    "prop-types": ">=15.7.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
     "@babel/preset-react": "^7.8.3",
+    "@types/react": "^16.9.23",
     "@typescript-eslint/eslint-plugin": "^2.21.0",
     "@typescript-eslint/parser": "^2.21.0",
     "babel-loader": "^8.0.6",
@@ -30,6 +33,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.18.3",
     "eslint-plugin-react-hooks": "^1.7.0",
+    "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "style-loader": "^1.1.3",
