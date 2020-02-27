@@ -13,6 +13,9 @@
   ],
   "author": "Shubham Zanwar",
   "license": "ISC",
+  "peerDependencies": {
+    "react": ">=16.6.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
