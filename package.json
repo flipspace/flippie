@@ -1,6 +1,6 @@
 {
   "name": "flippie",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "card components with awesome flip animations",
   "main": "dist/index.js",
   "scripts": {
