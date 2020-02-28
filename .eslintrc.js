@@ -5,7 +5,10 @@ module.exports = {
   },
   extends: [
     'plugin:react/recommended',
-    'airbnb',
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript",
+    'airbnb'
   ],
   globals: {
     Atomics: 'readonly',
@@ -23,9 +26,19 @@ module.exports = {
     'react',
     '@typescript-eslint',
   ],
+  settings: {
+    'import/resolver': {
+      'node': {
+        'extensions': ['.js', '.jsx', '.ts', '.tsx']
+      }
+    }
+  },
   rules: {
     'import/prefer-default-export': 0,
     'react/jsx-filename-extension': 0,
-    'react/prop-types': 0
+    'react/prop-types': 0,
+    'no-unused-vars': 0,
+    '@typescript-eslint/no-unused-vars': ["error"],
+    'import/extensions': 0
   },
 };
