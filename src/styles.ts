@@ -5,7 +5,7 @@ export const Card = styled('div')<{animationDelay: String}>`
     width: 100%;
     transform: rotateY(0deg);
     transform-style: preserve-3d;
-    transition: ${(props) => `transform ${props.animationDelay}s`}
+    transition: ${(props) => `transform ${props.animationDelay}s`};
     position: relative;
 `;
 
