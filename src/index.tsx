@@ -11,7 +11,7 @@ export const FlipCard:React.FC<{children: React.ReactChildren}> = ({
   }
 
   const frontFace = (children as ReactNodeArray)[0];
-  const backFace = (children as ReactNodeArray)[0];
+  const backFace = (children as ReactNodeArray)[1];
 
   return (
     <CardWrapper>
