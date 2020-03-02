@@ -11,19 +11,11 @@
       },
       "doc2": {
         "title": "document number 2"
-      },
-      "doc3": {
-        "title": "This is document number 3"
-      },
-      "doc4": {
-        "title": "Other Document"
-      },
-      "doc5": {
-        "title": "Fifth Document"
       }
     },
     "links": {
-      "Docs": "Docs"
+      "Docs": "Docs",
+      "GitHub": "GitHub"
     },
     "categories": {
       "Docusaurus": "Docusaurus",
