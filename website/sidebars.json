@@ -1,0 +1,6 @@
+{
+  "docs": {
+    "Docusaurus": ["doc1"],
+    "API reference": ["doc2"]
+  }
+}
