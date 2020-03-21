@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "shubhamzanwar",
+      "name": "Shubham Zanwar",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/15626155?v=4",
+      "profile": "https://github.com/shubhamzanwar",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "flippie",
+  "projectOwner": "shubhamzanwar",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
