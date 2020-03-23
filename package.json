@@ -22,6 +22,7 @@
     "react": ">=16.6.0"
   },
   "devDependencies": {
+    "@storybook/cli": "^5.3.17",
     "@types/react": "^16.9.23",
     "@types/styled-components": "^5.0.1",
     "@typescript-eslint/eslint-plugin": "^2.21.0",
