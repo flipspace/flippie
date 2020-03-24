@@ -3,7 +3,7 @@ import {
   Card, CardWrapper, FrontCardFace, BackCardFace,
 } from './styles';
 
-export const HorizontalFlipCard:React.FC<{children: React.ReactChildren}> = ({
+export const HorizontalFlipCard:React.FC<{children: React.ReactNode}> = ({
   children,
 }) => {
   if ((children as ReactNodeArray).length !== 2) {
