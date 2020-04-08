@@ -9,6 +9,16 @@ If this is your first time contributing to flippie, you could take a look at the
 1. [Good first issues](https://github.com/shubhamzanwar/flippie/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22+no%3Aassignee) These are issues that require relatively less code changes, few tests or basic documentation.
 2. [Help wanted issues](https://github.com/shubhamzanwar/flippie/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22+no%3Aassignee+) These are issues a little more involved than first issues.
 
+## Documentation
+
+flippie uses [storybook](https://storybook.js.org/) for documenting components. When creating these components, create a `stories.tsx` file to write sample usages. You can refer to the examples already available in the project.
+
+To run the storybook's explorer:
+```
+npm run sb
+```
+This should open up the explorer at [http://localhost:6006/](http://localhost:6006/) To make use of storybook to the fullest, create stories in Storybook first and then implement the component. ([CDD](https://www.learnstorybook.com/intro-to-storybook/react/en/simple-component/))
+
 ## Submitting your pull request
 
 If an issue already exists for the contribution you wish to make, kindly comment on it or assign it to yourself. This serves a dual purpose:
