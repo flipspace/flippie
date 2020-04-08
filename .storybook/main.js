@@ -9,7 +9,7 @@ module.exports = {
     config.resolve.extensions.push('.ts', '.tsx');
     return config;
   },
-  stories: ['../src/components/HorizontalFlipCard/stories.tsx'],
+  stories: ['../src/components/**/stories.tsx'],
   addons: [
     '@storybook/addon-actions',
     '@storybook/addon-links'
