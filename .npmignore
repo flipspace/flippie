@@ -1,0 +1,6 @@
+# Ignore storybook files
+/.storybook
+
+**/stories.tsx
+
+/stories
