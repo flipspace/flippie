@@ -5,6 +5,11 @@
 
 /stories
 
+#docs
+/website
+/docs
+/.github
+
 # Logs
 logs
 *.log
