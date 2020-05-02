@@ -3,7 +3,7 @@ import {
   Card, CardWrapper, FrontCardFace, BackCardFace,
 } from '../Common/FlipCard/styles';
 
-export const HorizontalFlipCard:React.FC<{children: React.ReactNode}> = ({
+export const VerticalFlipCard:React.FC<{children: React.ReactNode}> = ({
   children,
 }) => {
   if ((children as ReactNodeArray).length !== 2) {
@@ -14,10 +14,10 @@ export const HorizontalFlipCard:React.FC<{children: React.ReactNode}> = ({
   const backFace = (children as ReactNodeArray)[1];
 
   return (
-    <CardWrapper vertical={false}>
-      <Card animationDelay="0.5" vertical={false}>
-        <FrontCardFace vertical={false}>{frontFace}</FrontCardFace>
-        <BackCardFace vertical={false}>{backFace}</BackCardFace>
+    <CardWrapper vertical>
+      <Card animationDelay="0.5" vertical>
+        <FrontCardFace vertical>{frontFace}</FrontCardFace>
+        <BackCardFace vertical>{backFace}</BackCardFace>
       </Card>
     </CardWrapper>
   );
