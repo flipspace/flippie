@@ -7,7 +7,7 @@ A component library that provides different card animations for your next (or ex
 
 ## Learn More
 
-To learn more about flippie, head over to the [documentation](https://shubhamzanwar.github.io/flippie) to see demos and usage instructions.
+To learn more about flippie, head over to the [documentation](https://flipspace.github.io/flippie/) to see demos and usage instructions.
 
 ## Installation
 
