@@ -1,6 +1,6 @@
 # Flippie
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 A component library that provides different card animations for your next (or existing 😉) webapp.
@@ -34,6 +34,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/shubhamzanwar"><img src="https://avatars0.githubusercontent.com/u/15626155?v=4" width="100px;" alt=""/><br /><sub><b>Shubham Zanwar</b></sub></a><br /><a href="https://github.com/flipspace/flippie/commits?author=shubhamzanwar" title="Code">💻</a> <a href="https://github.com/flipspace/flippie/commits?author=shubhamzanwar" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/rohinivsenthil"><img src="https://avatars1.githubusercontent.com/u/42040329?v=4" width="100px;" alt=""/><br /><sub><b>Rohini Senthil</b></sub></a><br /><a href="https://github.com/flipspace/flippie/commits?author=rohinivsenthil" title="Code">💻</a></td>
     <td align="center"><a href="https://saurav-sahu.github.io/site/"><img src="https://avatars0.githubusercontent.com/u/9134050?v=4" width="100px;" alt=""/><br /><sub><b>Saurav Sahu</b></sub></a><br /><a href="https://github.com/flipspace/flippie/commits?author=mrsauravsahu" title="Code">💻</a> <a href="https://github.com/flipspace/flippie/commits?author=mrsauravsahu" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/hussamkhatib"><img src="https://avatars0.githubusercontent.com/u/52914487?v=4" width="100px;" alt=""/><br /><sub><b>mohammed hussam</b></sub></a><br /><a href="https://github.com/flipspace/flippie/commits?author=hussamkhatib" title="Code">💻</a></td>
   </tr>
 </table>
 
