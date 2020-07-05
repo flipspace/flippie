@@ -1,23 +1,23 @@
 import React, { ReactNodeArray } from 'react';
 import {
-  Card, CardWrapper, FrontCardFace, BackCardFace,
+  Card, CardWrapper, BaseCardFace, OverlayCardFace,
 } from './styles';
 
-export const SlideUpCard:React.FC<{children: React.ReactNode}> = ({
+export const SlideUpCard: React.FC<{ children: React.ReactNode }> = ({
   children,
 }) => {
   if ((children as ReactNodeArray).length !== 2) {
     throw new Error('Slide-up card requires exactly two children');
   }
 
-  const frontFace = (children as ReactNodeArray)[0];
-  const backFace = (children as ReactNodeArray)[1];
+  const baseFace = (children as ReactNodeArray)[0];
+  const overlayFace = (children as ReactNodeArray)[1];
 
   return (
     <CardWrapper>
-      <Card animationDelay="0.5">
-        <FrontCardFace>{frontFace}</FrontCardFace>
-        <BackCardFace>{backFace}</BackCardFace>
+      <Card>
+        <BaseCardFace>{baseFace}</BaseCardFace>
+        <OverlayCardFace animationDelay="0.6">{overlayFace}</OverlayCardFace>
       </Card>
     </CardWrapper>
   );
